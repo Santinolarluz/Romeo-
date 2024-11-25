@@ -41,7 +41,7 @@
 
       <div class="buttons flex justify-center">
 
-        <div class="flex w-full max-w-md justify-between"> <!-- Limita el ancho para centrar correctamente -->
+        <div class="flex w-full max-w-md justify-between"> <!-- Limita el ancho para centrar correctamenteSS -->
 
           <a href="studio.php" class="flex-1 text-center  bg-white hover:bg-gray-200 transition-all  header-nav">
 
