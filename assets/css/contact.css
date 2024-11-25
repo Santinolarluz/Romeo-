@@ -1,0 +1,64 @@
+/* Estilo general para centrar el contenido */
+@font-face {
+    font-family: 'Apercu Bold';
+    src: url('../fonts/Apercu/apercu_bold_pro.otf') format('opentype');
+    font-weight: 900;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Apercu Bold';
+    background-color: #f4f4f9; /* Fondo suave */
+}
+
+.confirmation-container {
+    text-align: center;
+    max-width: 600px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.message-success {
+    font-size: 2rem;
+    color: black; /* Verde éxito */
+    margin-bottom: 10px;
+}
+
+.message-error {
+    font-size: 2rem;
+    color: #e74c3c; /* Rojo error */
+    margin-bottom: 10px;
+}
+
+.message-info {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.success-image {
+    margin-top: 20px;
+    max-width: 280px;
+    height: auto;
+}
+
+/* Añadir algún estilo para dispositivos móviles */
+@media (max-width: 600px) {
+    .confirmation-container {
+        padding: 15px;
+    }
+
+    .message-success, .message-error {
+        font-size: 1.5rem;
+    }
+
+    .message-info {
+        font-size: 1rem;
+    }
+}
